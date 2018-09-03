@@ -1,0 +1,29 @@
+.modal-body p{
+  text-align: center;
+}
+
+.buttons-row{
+  margin-bottom: 2rem;
+}
+
+.buttons button{
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.tile{
+  display: inline-block;
+  margin: 1rem;
+}
+
+.tile-header p, .tile-img img, .tile-gif img{
+  width: 10rem;
+}
+
+.tile-img img, .tile-gif img{
+  height: 10rem;
+}
+
+.tile-gif{
+  display: none;
+}

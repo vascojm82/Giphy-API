@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giphy-App Homework</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/soundmanager2.js"></script>
+		<link href="CSS/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<script type="text/javascript" src="JS/main.js"></script>
+  </head>
+  <body>
+
+    <!-- Opening Modal -->
+		<div class="modal fade" id="openingModal" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="openingModalTitle">Welcome to my Giphy API demo App</h4>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+			      <p>This app will get user input and call the Giphy RestFul API</p>
+						<p>to obtain 10 images/GIFs of the desired object.</p>
+            <p>Give it a try !</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary close-btn" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!------------------------->
+
+    <!-- App Container -->
+    <div class="container">
+      <div class="row buttons-row">
+        <div class="col-12 buttons"></div>
+      </div>
+      <div class="row">
+        <div class="col-8 main-container"></div>
+        <div class="col-4 add-form">
+          <form>
+            <div class="form-group">
+              <label for="addObject">Add an Object of your choice <br>(ie: Animal, Vehicle, etc..)</label>
+              <input type="text" class="form-control addObject" id="addObject">
+            </div>
+            <button type="submit" class="btn btn-primary disabled submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!------------------------->
+
+  </body>
+</html>
