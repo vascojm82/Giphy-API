@@ -1,3 +1,14 @@
+body{
+  background: url(https://media.giphy.com/media/l3q2Cy90VMhfoA9BC/giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container{
+  color: #FFF;
+}
+
 .modal-body p{
   text-align: center;
 }
